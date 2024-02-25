@@ -9,3 +9,7 @@
       cd DoctorDex
       npm install
    ```
+3. Start the project.
+   ```
+      npm start
+   ```
