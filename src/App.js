@@ -19,7 +19,7 @@ function App() {
         </div>
 
         {/* lower part */}
-        <div className="flex flex-wrap gap-x-3 gap-y-10 items-center justify-between pb-10" >
+        <div className="flex flex-wrap gap-x-3 gap-y-10 items-center justify-center pb-10" >
             {
               data.map( (doctorDetail) => (
                 <div key={doctorDetail.id} onClick={() => setSelect(doctorDetail.id)} className={` ${select === doctorDetail.id ? "shadow-2xl" : "shadow-inner"} cursor-pointer rounded-lg `} >
